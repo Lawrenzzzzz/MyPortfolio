@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lawrenz — Web Portfolio</title>
+<meta name="description" content="Portfolio of Mara Voss, a creative technologist building product experiences where motion, type, and engineering meet quietly." />
+<meta property="og:title" content="Mara Voss — Creative Technologist" />
+<meta property="og:description" content="Portfolio of Mara Voss, a creative technologist building product experiences where motion, type, and engineering meet quietly." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:`title" content="Mara Voss — Creative Technologist" />
+<meta name="twitter:description" content="Portfolio of Mara Voss, a creative technologist building product experiences where motion, type, and engineering meet quietly." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="site">
+    <div class="wrap">
+      <div class="nav-row">
+        <div class="brand">
+          <span class="name font-display">Lawrenz</span>
+          <span class="studio">Studio</span>
+        </div>
+        <nav class="links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="btn-primary">Start a project</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Web Developer · Philippines</p>
+          <h1 class="headline font-display">CODE.<br><em>CREATE</em>.<br>INSPIRE.</h1>
+          <p class="lede">
+             Technology is more than just code-it is a tool for creating meaningful solutions, solving real-world problems.
+          </p>
+          <div class="cta-row">
+            <a href="#work" class="btn-indigo">View selected work</a>
+            <a href="#about" class="btn-ghost">Read the brief</a>
+          </div>
+          <dl class="stat-row">
+            <div>
+              <dt class="stat-label">Focus</dt>
+              <dd class="stat-value font-display">Creating / Development</dd>
+            </div>
+            <div>
+              <dt class="stat-label">Stack</dt>
+              <dd class="stat-value font-display">Web</dd>
+            </div>
+            <div>
+              <dt class="stat-label">Status</dt>
+              <dd class="stat-value font-display">Open</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-preview">
+          <div class="preview-grid">
+            <div class="preview-col">
+              <div class="preview-img-wrap">
+                <div class="placeholder-img" role="img" aria-label="Signal project preview — dark data visualization interface"></div>
+              </div>
+              <div class="preview-meta">
+                <p class="preview-index">01</p>
+                <p class="preview-name font-display">Signal</p>
+              </div>
+            </div>
+            <div class="preview-col">
+              <div class="preview-meta">
+                <p class="preview-index">02</p>
+                <p class="preview-name font-display">Fieldnote</p>
+              </div>
+              <div class="preview-img-wrap">
+                <div class="placeholder-img" role="img" aria-label="Fieldnote project preview — minimal editorial typography layout"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section-border-top">
+    <div class="wrap section-pad">
+      <div class="work-head">
+        <h2 class="section-title font-display">Projects</h2>
+        <p class="work-sub">
+          A short cut of recent pieces — each one built end to end, from
+          first sketch to shipped build.
+        </p>
+      </div>
+
+      <div class="work-carousel" data-carousel>
+        <div class="work-track">
+
+          <!-- Set A -->
+          <article class="card card-featured">
+            <div class="card-img-wrap">
+              <div class="placeholder-featured" role="img" aria-label="Lumen Analytics — dark dashboard UI with indigo glow"></div>
+            </div>
+            <div class="card-body-lg">
+              <div class="card-eyebrow-row">
+                <span class="card-eyebrow">Featured · 2025</span>
+                <span class="card-tag">Web app</span>
+              </div>
+              <h3 class="card-title-lg font-display">Lumen Analytics</h3>
+              <p class="card-desc-lg">
+                A real-time observability console for a fintech data team. I
+                led the interaction model and motion system, keeping dense
+                data calm and legible.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Design systems</span>
+                <span class="pill">TypeScript</span>
+                <span class="pill">Motion</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrap">
+              <div class="placeholder-sm" role="img" aria-label="Meridian — generative identity toolkit"></div>
+            </div>
+            <div class="card-body">
+              <span class="card-eyebrow">2024</span>
+              <h3 class="card-title font-display">Meridian</h3>
+              <p class="card-desc">A generative identity toolkit for a design collective.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img-wrap">
+              <div class="placeholder-sm" role="img" aria-label="Northwind — calm travel booking mobile app"></div>
+            </div>
+            <div class="card-body">
+              <span class="card-eyebrow">2024</span>
+              <h3 class="card-title font-display">Northwind</h3>
+              <p class="card-desc">A quiet booking flow for slow, considered travel.</p>
+            </div>
+          </article>
+
+          <!-- Set B (duplicate, for seamless loop — hidden from assistive tech) -->
+          <article class="card card-featured" aria-hidden="true">
+            <div class="card-img-wrap">
+              <div class="placeholder-featured" role="img" aria-label=""></div>
+            </div>
+            <div class="card-body-lg">
+              <div class="card-eyebrow-row">
+                <span class="card-eyebrow">Featured · 2025</span>
+                <span class="card-tag">Web app</span>
+              </div>
+              <h3 class="card-title-lg font-display">Lumen Analytics</h3>
+              <p class="card-desc-lg">
+                A real-time observability console for a fintech data team. I
+                led the interaction model and motion system, keeping dense
+                data calm and legible.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Design systems</span>
+                <span class="pill">TypeScript</span>
+                <span class="pill">Motion</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" aria-hidden="true">
+            <div class="card-img-wrap">
+              <div class="placeholder-sm" role="img" aria-label=""></div>
+            </div>
+            <div class="card-body">
+              <span class="card-eyebrow">2024</span>
+              <h3 class="card-title font-display">Meridian</h3>
+              <p class="card-desc">A generative identity toolkit for a design collective.</p>
+            </div>
+          </article>
+
+          <article class="card" aria-hidden="true">
+            <div class="card-img-wrap">
+              <div class="placeholder-sm" role="img" aria-label=""></div>
+            </div>
+            <div class="card-body">
+              <span class="card-eyebrow">2024</span>
+              <h3 class="card-title font-display">Northwind</h3>
+              <p class="card-desc">A quiet booking flow for slow, considered travel.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section-border-top about-section">
+    <div class="wrap section-pad">
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">About</p>
+          <h2 class="about-title font-display">I work at the seam between design and code.</h2>
+          <p class="about-p">
+            For the past eight years I've helped early-stage teams ship
+            products that feel considered rather than crowded. I care about
+            the parts people notice last — the easing, the empty state, the
+            loading that never makes anyone anxious.
+          </p>
+          <p class="about-p">
+            I take on a small number of engagements each year, usually
+            design-and-build, so the thinking and the delivery never drift
+            apart.
+          </p>
+        </div>
+        <div class="about-services">
+          <p class="eyebrow">Services</p>
+          <ul class="service-list">
+            <li class="service-item">
+              <span class="service-name">Product design</span>
+              <span class="service-num">01</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Front-end engineering</span>
+              <span class="service-num">02</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Design systems</span>
+              <span class="service-num">03</span>
+            </li>
+            <li class="service-item">
+              <span class="service-name">Motion &amp; interaction</span>
+              <span class="service-num">04</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-border-top contact-section">
+    <div class="contact-glow"></div>
+    <div class="wrap contact-inner">
+      <div class="contact-box">
+        <p class="eyebrow">Contact</p>
+        <h2 class="contact-title font-display">Have something worth building?</h2>
+        <p class="contact-p">
+          I'm currently booking projects for next quarter. Tell me what
+          you're making and where it's stuck.
+        </p>
+        <div class="contact-cta-row">
+          <button type="button" class="btn-indigo" data-modal-open="emailModal">Email Me</button>
+          <a href="#work" class="btn-ghost">Back to work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site">
+    <div class="wrap footer-inner">
+      <span class="footer-brand">Lawrenz — Web Dev</span>
+      <div class="footer-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <span>© 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Email modal -->
+  <div class="email-modal" id="emailModal" aria-hidden="true">
+    <div class="email-modal-backdrop" data-modal-close></div>
+    <div class="email-modal-box" role="dialog" aria-modal="true" aria-labelledby="emailModalTitle">
+      <button type="button" class="email-modal-close" data-modal-close aria-label="Close">&times;</button>
+
+      <p class="eyebrow">Say hello</p>
+      <h3 id="emailModalTitle" class="email-modal-title font-display">Send a message</h3>
+      <p class="email-modal-sub">Fill this in and I'll get it straight in my inbox.</p>
+
+      <form class="email-form" id="emailForm" action="https://formspree.io/f/xrpznvwn" method="POST">
+        <label class="email-field">
+          <span>Your name</span>
+          <input type="text" name="name" required />
+        </label>
+        <label class="email-field">
+          <span>Your email</span>
+          <input type="email" name="email" required placeholder="example@gmail.com" />
+        </label>
+        <label class="email-field">
+          <span>Subject</span>
+          <input type="text" name="subject" placeholder="What are you making?" required />
+        </label>
+        <label class="email-field">
+          <span>Message</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button type="submit" class="btn-indigo email-submit">Send message</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
