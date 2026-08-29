@@ -1,5 +1,3 @@
-// Smooth-scroll fallback for browsers ignoring CSS scroll-behavior,
-    // and to account for the sticky header when landing on a section.
     document.querySelectorAll('a[href^="#"]').forEach(function (link) {
       link.addEventListener('click', function (e) {
         var id = this.getAttribute('href').slice(1);
@@ -12,23 +10,20 @@
       });
     });
 
-    // Roulette-style auto-scrolling project carousel.
-    // Driven with requestAnimationFrame rather than a CSS animation so it
-    // keeps running reliably across browsers, and pauses cleanly on hover.
+  
     (function () {
       var viewport = document.querySelector('[data-carousel]');
       var track = viewport && viewport.querySelector('.work-track');
       if (!track) return;
 
-      var pxPerSecond = 40; // scroll speed
+      var pxPerSecond = 40; 
       var offset = 0;
       var paused = false;
       var lastTime = null;
       var loopWidth = 0;
 
       function measure() {
-        // The track's content is duplicated once, so half its scrollWidth
-        // is exactly one full set of cards — that's our seamless loop point.
+       
         loopWidth = track.scrollWidth / 2;
       }
 
@@ -56,7 +51,7 @@
       requestAnimationFrame(tick);
     })();
 
-    // Contact email modal
+    
     (function () {
       var modal = document.getElementById('emailModal');
       if (!modal) return;
